@@ -1,4 +1,4 @@
-# vue-right-click-menu · [![npm](https://img.shields.io/badge/npm-v1.0.0-2081C1)]() [![yarn](https://img.shields.io/badge/yarn-v1.0.0-F37E42)]() [![github](https://img.shields.io/badge/GitHub-depositary-9A9A9A)]()
+# vue-right-click-menu · [![npm](https://img.shields.io/badge/npm-v1.0.0-2081C1)](https://www.npmjs.com/package/vue-right-click-menu) [![yarn](https://img.shields.io/badge/yarn-v1.0.0-F37E42)](https://yarnpkg.com/package/vue-right-click-menu) [![github](https://img.shields.io/badge/GitHub-depositary-9A9A9A)](https://github.com/likaia/vue-right-click-menu) [![](https://img.shields.io/github/issues/likaia/vue-right-click-menu)](https://github.com/likaia/vue-right-click-menu/issues) [![](	https://img.shields.io/github/forks/likaia/vue-right-click-menu)](https://github.com/likaia/vue-right-click-menu/network/members) [![](	https://img.shields.io/github/stars/likaia/vue-right-click-menu)](https://github.com/likaia/vue-right-click-menu/stargazers)
 支持vue的浏览器右键菜单插件，效果图如下：
 
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0261ae22733144a6ac67ec16008355d2~tplv-k3u1fbpfcp-watermark.image)
@@ -85,6 +85,6 @@ export default {
 ## 写在最后
 至此，插件的所有使用方法就介绍完了。
 
-该插件仅支持Vue2.x的项目，Vue3.x项目请移步: [vue-right-click-menu-next](https://github.com/likaia/vue-right-click-menu-next)
+该插件仅支持Vue2.x的项目，Vue3.x项目请移步: [vue-right-click-menu](https://github.com/likaia/vue-right-click-menu)
 
 想进一步了解插件源码的请移步插件的GitHub仓库：[vue-right-click-menu](https://github.com/likaia/vue-right-click-menu)
