@@ -1,16 +1,31 @@
 {
   "name": "vue-right-click-menu",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "支持vue的右键菜单插件",
+  "private": false,
+  "main": "dist/vueRightMenuPlugin.common.js",
+  "publisher": "magicalprogrammer@qq.com",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build --target lib --name vueRightMenuPlugin src/main.js"
   },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likaia/vue-right-click-menu.git"
   },
+  "keywords": [
+    "vuejs",
+    "vue",
+    "rightMenu",
+    "右键菜单",
+    "vueRightMenu"
+  ],
+  "author": "likaia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/likaia/vue-right-click-menu/issues"
+  },
+  "homepage": "https://github.com/likaia/vue-right-click-menu#readme",
+  "dependencies": {},
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
@@ -24,5 +39,19 @@
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
+  },
+  "peerDependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
