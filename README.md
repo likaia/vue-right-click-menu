@@ -85,6 +85,6 @@ export default {
 ## 写在最后
 至此，插件的所有使用方法就介绍完了。
 
-该插件仅支持Vue2.x的项目，Vue3.x项目请移步: [vue-right-click-menu](https://github.com/likaia/vue-right-click-menu)
+该插件仅支持Vue2.x的项目，Vue3.x项目请移步: [vue-right-click-menu-next](https://github.com/likaia/vue-right-click-menu-next)
 
 想进一步了解插件源码的请移步插件的GitHub仓库：[vue-right-click-menu](https://github.com/likaia/vue-right-click-menu)
