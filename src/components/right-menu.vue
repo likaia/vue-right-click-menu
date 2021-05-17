@@ -22,11 +22,13 @@
           <!--status为false时, 参数为对象, 取content中的值-->
           <span
             v-else-if="item.text.status && item.text.status === false"
-            @click="item.handler"
+            @click="item.handler(item.parameter && item.parameter)"
           >
             {{ item.text.content }}
           </span>
-          <span v-else @click="item.handler">{{ item.text }} </span>
+          <span v-else @click="item.handler(item.parameter && item.parameter)"
+            >{{ item.text }}
+          </span>
         </div>
       </li>
       <li>
@@ -40,11 +42,13 @@
           <!--status为false时, 参数为对象, 取content中的值-->
           <span
             v-else-if="item.text.status && item.text.status === false"
-            @click="item.handler"
+            @click="item.handler(item.parameter && item.parameter)"
           >
             {{ item.text.content }}
           </span>
-          <span v-else @click="item.handler">{{ item.text }} </span>
+          <span v-else @click="item.handler(item.parameter && item.parameter)"
+            >{{ item.text }}
+          </span>
         </div>
       </li>
     </ul>
