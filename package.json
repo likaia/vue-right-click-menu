@@ -25,7 +25,10 @@
     "url": "https://github.com/likaia/vue-right-click-menu/issues"
   },
   "homepage": "https://github.com/likaia/vue-right-click-menu#readme",
-  "dependencies": {},
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
@@ -39,10 +42,6 @@
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
-  },
-  "peerDependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
   },
   "config": {
     "commitizen": {
